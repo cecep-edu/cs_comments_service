@@ -9,7 +9,7 @@ test:
     default:
       database: cs_comments_service_test
       hosts:
-        - localhost:27017
+        - venus.formax.edu.ec:27017
 
 common: &default_session
   uri: <%= ENV['MONGOHQ_URL'] %>
